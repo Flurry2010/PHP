@@ -1,0 +1,8 @@
+div{
+    border: black 1px solid;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 3px;
+}

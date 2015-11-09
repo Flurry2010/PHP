@@ -1,0 +1,131 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+#ersteBox {
+    background-color: white;
+    width: 400px;
+    padding: 5px 40px;
+    border: solid 5px black;
+    border-radius: 20px;
+
+}
+
+#zweiteBox {
+    background-color: white;
+    width: 400px;
+    padding: 5px 40px;
+    border-right: double 5px red;
+    border-left: double 5px red;
+    margin: 10px;
+}
+
+#dritteBox {
+    background-color: yellow;
+    padding: 10px;
+    border: dotted;
+    margin: 10px;
+}
+
+#bla {
+    font-size: 60px width : 100 px
+}
+
+div {
+    border: solid 1px black;
+}
+
+p {
+    font-color: red;
+}
+
+.innen {
+    background-color: green;
+    border: solid 1px red;
+    border-radius: 5px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+#eins {
+    width: 80%;
+    margin: 5px auto;
+}
+
+#zwei {
+    width: 48%;
+}
+
+#drei {
+    width: 48%;
+    margin-left: auto;
+}
+
+#vier {
+    width: 60%;
+    margin: 5px auto;
+}
+
+#pic {
+    width: 400px;
+    height: 205px;
+    margin-top: 25px;
+
+}
+
+#pic2 {
+    width: 400px;
+    height: 205px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#pic3{
+    width: 400px;
+}
+
+.innen2 {
+    background-color: green;
+    border: solid 1px red;
+    border-radius: 5px;
+    margin: 5px 2px;
+    text-align: center;
+}
+
+#e {
+    width: 80%;
+    margin: 5px auto;
+}
+
+#z {
+    width: 48%;
+    margin: 0px 2px;
+    float: left;
+}
+
+#d {
+    width: 48%;
+    margin: 0px 2px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+#v {
+    width: 60%;
+    clear: both;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+
+

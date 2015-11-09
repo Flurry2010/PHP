@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    border: solid 1px black;
+    width: 70%;
+    margin: 0px auto auto auto;
+}
+
+H1{
+    padding: 5px;
+    text-align: CENTER;
+    background-color: gainsboro;
+}
+
+li{
+    border: solid 1px black;
+    text-align: CENTER;
+    text-decoration: none;
+    width: 15%;
+    padding: 1%;
+    margin: 10px 0px 10px 10px;
+    list-style: none;
+    display: inline-block;
+    background-color: gainsboro;
+
+}
+a{
+    text-decoration: none;
+}
+
+section{
+    background-color: gainsboro;
+    margin: 10px;
+    width: 60%;
+    display: inline-block;
+}
+article{
+    padding: 5%;
+}
+
+p{
+    margin: 0.5%;
+}
+
+article footer{
+    text-align: left;
+
+}
+
+h2 {
+    font-weight: bold;
+}
+
+aside{
+    padding: 1%;
+    margin-top: 10px;
+    vertical-align: top;
+    width: 35%;
+    display: inline-block;
+    background-color: gainsboro;
+}
+
+footer{
+    padding: 5px;
+    text-align: CENTER;
+    background-color: gainsboro;
+
+}
