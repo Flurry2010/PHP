@@ -17,25 +17,32 @@ echo "<br>";
 echo "<br>";
 $browser = 'unbekannt';
 
-if (preg_match('/chrome/i', $info)) {
+//if (preg_match('/chrome/i', $info)) {
+//    $browser = 'Chrome';
+//}
+//
+//elseif (preg_match('/firefox/i', $info)) {
+//    $browser = 'firefox';
+//}
+//
+//elseif (preg_match('/trident/i', $info)) {
+//    $browser = 'InetExplorer';
+//}
+
+if (strpos($info, 'Chrome')!== false){
     $browser = 'Chrome';
 }
 
-elseif (preg_match('/firefox/i', $info)) {
-    $browser = 'firefox';
+elseif(strpos($info, 'Firefox')!== false){
+    $browser = 'Firefox';
 }
 
-elseif (preg_match('/trident/i', $info)) {
+elseif(strpos($info, 'Trident')!== false){
     $browser = 'InetExplorer';
 }
 
+
 echo "Sie benutzen den $browser als Brwoser";
-
-
-
-
-
-
 
 
 ?>
