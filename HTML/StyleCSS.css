@@ -16,19 +16,22 @@ H1{
 }
 
 li{
-    border: solid 1px black;
     text-align: CENTER;
     text-decoration: none;
-    width: 15%;
-    padding: 1%;
+    width: 20%;
     margin: 10px 0px 10px 10px;
     list-style: none;
     display: inline-block;
-    background-color: gainsboro;
+
 
 }
 a{
     text-decoration: none;
+    border: solid 1px black;
+    Display: Block;
+    background-color: gainsboro;
+    padding: 5%;
+
 }
 
 section{

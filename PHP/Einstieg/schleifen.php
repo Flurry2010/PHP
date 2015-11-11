@@ -86,28 +86,6 @@ for ($h = 0; $h < 14; $h++) {
 }
 ?>
 
-<?PHP
-$array = array("Alfred" => array("Audi" => array ("Farbe" => "Lila","PS" => "180", "Alter" => "12 Jahre" )),
-"Ingrid" => array ("VW Käfer" => array ("Farbe" => "gelb","PS" => "110", "Alter" => "6 Jahre" )),
-"Lisa" => array ("VW Lupo" => array("Farbe" => "Rot","PS" => "90", "Alter" => "12 Jahre" )));
-
-echo "<ul>";
-foreach ($array as $key => $value) {
-   echo "$key";
-    echo "<ol><li>";
-    foreach ($value as $key => $value) {
-        echo "$key";
-        echo "<ul>";
-        foreach ($value as $key => $value) {
-            echo "<li> $key : $value</li>";
-        }
-        echo "</ul></li>";
-    }
-    echo "</ol>";
-}echo "</ul>";
-
-?>
-
 
 </body>
 </html>
