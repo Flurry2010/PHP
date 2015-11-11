@@ -15,8 +15,10 @@ $info =  $_SERVER['HTTP_USER_AGENT'];
 echo "$info";
 echo "<br>";
 echo "<br>";
-$browser = 'unbekannt';
+$browser = 'unbekannten';
 
+
+//-- PHP findet Strings in einem Array
 //if (preg_match('/chrome/i', $info)) {
 //    $browser = 'Chrome';
 //}
@@ -29,8 +31,9 @@ $browser = 'unbekannt';
 //    $browser = 'InetExplorer';
 //}
 
+//-- PHP findet Strings in einem Array
 if (strpos($info, 'Chrome')!== false){
-    $browser = 'Chrome';
+    $browser = 'Google Chrome';
 }
 
 elseif(strpos($info, 'Firefox')!== false){
@@ -38,11 +41,11 @@ elseif(strpos($info, 'Firefox')!== false){
 }
 
 elseif(strpos($info, 'Trident')!== false){
-    $browser = 'InetExplorer';
+    $browser = 'Internet Explorer';
 }
 
 
-echo "Sie benutzen den $browser als Brwoser";
+echo "Sie benutzen einen $browser Browser";
 
 
 ?>
