@@ -1,0 +1,80 @@
+*{
+    paddig: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+
+}
+
+
+
+h1{
+    text-align: center;
+    padding: 80px;
+    color: aqua;
+}
+div:nth-child(odd)>p>a:active{color: darkgrey;}
+a:active
+
+
+#rahmen{
+    margin: 0 auto;
+    border: solid 2px black;
+    height: 500px;
+    width: 500px;
+
+}
+
+
+#b1{
+    float: left;
+    border: solid 1px black;
+    background-color: green;
+    position: relative;
+    height: 45%;
+    width: 45%;
+    margin: 2%;
+    z-index: 2;
+}
+#b1:hover { color:#00f; background-color:red; }
+
+
+#b2{
+    float: left;
+    border: solid 1px black;
+    background-color: green;
+    position: relative;
+    /*top: 100px;
+    left: 100px;*/
+    height: 45%;
+    width: 45%;
+    margin: 2%;
+    z-index: 1;
+}
+#b2:hover { color:#00f; background-color:yellow; }
+
+#b3{
+    float: left;
+    border: solid 1px black;
+    background-color: green;
+    position: relative;
+    height: 45%;
+    width: 45%;
+    margin: 2%;
+    z-index: 2;
+}
+#b3:hover { color:#00f; background-color:black; }
+
+#b4{
+    float: left;
+    border: solid 1px black;
+    background-color: green;
+    position: relative;
+    height: 45%;
+    width: 45%;
+    margin: 2%;
+    z-index: 2;
+}
+#b4:hover { color:#00f; background-color:pink; }
