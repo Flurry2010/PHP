@@ -10,4 +10,6 @@ td{
     padding: 50px;
     background-color: red;
 }
-tr:nth-child(odd)>td:nth-child(even),tr:nth-child(even)>td:nth-child(odd){background: black}
+tr:nth-child(odd) td:nth-child(odd){background: white}
+tr:nth-child(even) td:nth-child(even){background: white}
+
