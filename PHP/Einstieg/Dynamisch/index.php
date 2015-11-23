@@ -4,6 +4,12 @@ $pages=[
     'lists' => 'Listen',
     'table' => 'Tabellen'
 ];
+
+if(isset($_GET['page'])) {
+    $currentPage = $_GET['page'];
+}else
+    $currentPage = 'home';
+
 ?>
 
 
@@ -20,6 +26,8 @@ $pages=[
 
 
 <?php
+
+
 
 require 'head.php';
 require 'navigation.php';
