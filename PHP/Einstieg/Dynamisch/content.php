@@ -1,7 +1,7 @@
 <section>
     <div>
-        <p>Content</p>
-    </div>
+
+    <p>
     <?php
 
     //    if($_GET['page']=='home')
@@ -28,5 +28,7 @@
 
 
     ?>
+    </p>
+    </div>
 
 </section>

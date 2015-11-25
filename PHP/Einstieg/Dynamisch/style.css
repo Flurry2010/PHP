@@ -11,6 +11,10 @@ header{
     background: lightyellow;
 }
 
+header h2{
+    text-align: center;
+}
+
 #main{
     display: flex;
     flex-flow: row;
@@ -20,12 +24,20 @@ nav{
     order: 0;
     margin: 5px;
     min-width: 150px;
-    border-right: solid black 1px;
+    border-right: solid lightyellow 5px;
+}
+nav h3{
+    text-align: center;
 }
 
 p{
-    text-align: center;
+
 }
+
+form{
+
+}
+
 
 nav p{
     margin: auto;
@@ -39,10 +51,11 @@ section{
     order: 1;
     flex: 8;
     margin: 5px;
-    border: solid black 1px;
+
 }
 
 footer{
     clear: both;
     background: lightyellow;
+    text-align: center;
 }

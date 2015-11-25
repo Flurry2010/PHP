@@ -2,10 +2,11 @@
 $pages=[
     'home' => 'Allgemeines',
     'lists' => 'Listen',
-    'table' => 'Tabellen'
+    'table' => 'Tabellen',
+    'formular' => 'Formular'
 ];
 
-if(isset($_GET['page'])) {
+if(isset($_GET['page'])&& isset($pages[$_GET['page']])) {
     $currentPage = $_GET['page'];
 }else
     $currentPage = 'home';
