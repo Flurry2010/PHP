@@ -1,5 +1,5 @@
 <nav>
-    Inhaltsverzeichnis
+    <p>Inhaltsverzeichnis</p>
     
     <ul>
         <?PHP

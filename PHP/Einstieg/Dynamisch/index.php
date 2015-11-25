@@ -30,8 +30,10 @@ if(isset($_GET['page'])) {
 
 
 require 'head.php';
+echo "<div id='main'>";
 require 'navigation.php';
 require 'content.php';
+echo "</div>";
 require 'foot.php';
 
 ?>

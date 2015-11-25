@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+
+}
+
+header{
+    background: lightyellow;
+}
+
+#main{
+    display: flex;
+    flex-flow: row;
+}
+nav{
+    flex: 1;
+    order: 0;
+    margin: 5px;
+    min-width: 150px;
+    border-right: solid black 1px;
+}
+
+p{
+    text-align: center;
+}
+
+nav p{
+    margin: auto;
+}
+
+ul{
+    margin: 30px;
+}
+
+section{
+    order: 1;
+    flex: 8;
+    margin: 5px;
+    border: solid black 1px;
+}
+
+footer{
+    clear: both;
+    background: lightyellow;
+}
