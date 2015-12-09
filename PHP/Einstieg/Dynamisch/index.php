@@ -3,7 +3,10 @@ $pages=[
     'home' => 'Allgemeines',
     'lists' => 'Listen',
     'table' => 'Tabellen',
-    'formular' => 'Formular'
+    'formular' => 'Formular',
+    'gallary' => 'Bilder Gallary',
+    'fakultaet' => 'Fakultät'
+
 ];
 
 if(isset($_GET['page'])&& isset($pages[$_GET['page']])) {
