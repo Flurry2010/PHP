@@ -5,7 +5,8 @@ $pages=[
     'table' => 'Tabellen',
     'formular' => 'Formular',
     'gallary' => 'Bilder Gallary',
-    'fakultaet' => 'Fakultät'
+    'fakultaet' => 'Fakultät',
+    'bestellung' => 'Bestellung'
 
 ];
 
