@@ -64,3 +64,18 @@ kreis.füllfarbe = "yellow";
 kreis.toString = function(){
     return 'Kreis mit Radius von ' + this.radius + ' Metern.';
 }
+
+var rechteck = {
+    länge: 5,
+    breite: 2,
+    farbe:"Rot",
+    fläche: 10,
+    umfang: 14,
+
+    getFläche: function () {
+        return this.länge * this.breite
+    },
+    get Fläche() {return this.länge * this.breite},
+    get Umfang() {return (this.länge*2) + (this.breite*2)},
+}
+
