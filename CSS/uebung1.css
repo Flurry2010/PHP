@@ -1,0 +1,65 @@
+.color0 { color: #AAA939 } /* Main Primary color */
+.color1 { color: #FFFEAA }
+.color2 { color: #D4D46A }
+.color3 { color: #807F15 }
+.color4 { color: #555400 }
+
+#site{
+    border: solid black 1px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div>header>h1{
+    text-align: center;
+    background-color: lightgrey;
+    margin-bottom: 1%;
+    margin-top: 0;
+    padding: 1%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    background-color: lightgrey;
+    display: inline-block;
+    padding: 1%;
+    width: 20%;
+    text-align: center;
+    border: solid black 1px;
+    margin: 1%;
+    margin-left: 1%;
+    margin-top: 0;
+}
+
+section{
+    background-color: lightgrey;
+    display: inline-block;
+    width: 80%;
+    margin: 1%;
+    margin-top: 0;
+}
+article{
+    margin-left: 1%;
+}
+aside{
+    vertical-align: top;
+    background-color: lightgrey;
+    display: inline-block;
+    width: 15%;
+    padding: 1%;
+}
+blockquote{
+    margin: 1%;
+    padding: 1%;
+}
+
+div>footer{
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 1%;
+}
