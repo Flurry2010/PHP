@@ -41,3 +41,26 @@ var neu = res.join(" ");
 console.log(neu);
 
 console.log(ip.split(".").join(" "));
+
+var kreis = {
+    xPos: 0,
+    yPos: 0,
+    radius: 20,
+    getDurchmesser: function () {
+        return this.radius * 2
+    }
+}
+
+var kreis1 = {
+    xPos: 0,
+    yPos: 0,
+    radius: 20,
+    get durchmesser() {return this.radius *2},
+    set durchmesser(value) {this.radius = value /2},
+    }
+
+
+kreis.füllfarbe = "yellow";
+kreis.toString = function(){
+    return 'Kreis mit Radius von ' + this.radius + ' Metern.';
+}
