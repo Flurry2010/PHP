@@ -54,7 +54,8 @@ body{
 }
 
 #d4{
-    transition: width 2s, height 3s;
+    transition: width 2s, height 3s 2s;
+
 }
 
 nav{
