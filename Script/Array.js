@@ -66,16 +66,27 @@ kreis.toString = function(){
 }
 
 var rechteck = {
-    länge: 5,
-    breite: 2,
-    farbe:"Rot",
-    fläche: 10,
-    umfang: 14,
+    länge: 50,
+    breite: 200,
+    farbe:"red",
+    fläche: 10000,
+    umfang: 500,
 
     getFläche: function () {
         return this.länge * this.breite
     },
     get Fläche() {return this.länge * this.breite},
     get Umfang() {return (this.länge*2) + (this.breite*2)},
+
+    get DivString() {return '<div style=" width:' + this.breite + 'px; height:' + this.länge + 'px; background-color:' + this.farbe + '"></div>';},
+    get Temp() {return ` <div style="
+    width: ${this.breite}px;
+    height: ${this.länge}px;
+    background-color: ${this.farbe}"
+    ></div>`}
 }
+
+document.body.innerHTML = '<div style=" width:' + rechteck.breite + 'px; height:' + rechteck.länge + 'px; background-color:' + rechteck.farbe + '"></div><br>';
+document.body.innerHTML += rechteck.DivString + "<br>";
+document.body.innerHTML += rechteck.Temp;
 
