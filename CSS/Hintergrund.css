@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+}
+
+#back{
+    height: 300px;
+    width: 300px;
+    border: solid 1px black;
+    background: url("star.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#back1{
+    height: 300px;
+    width: 300px;
+    border: solid 1px black;
+    background: url("star.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+    right: 0;
+}
