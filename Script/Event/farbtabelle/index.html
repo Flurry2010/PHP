@@ -15,17 +15,31 @@
             border: 1px solid gray;
             font-size: 40px;
         }
+
+        input{
+            position: relative;
+            left: 95px;
+        }
+
+        label{
+            position: relative;
+            left: 95px;
+        }
     </style>
 
 </head>
 <body>
 
-<input type="radio" id="red" name="farbe" checked><label for="red">ROT</label></input>
-<input type="radio" id="green" name="farbe"><label for="green">GRÜN</label></input>
-<input type="radio" id="blue" name="farbe"><label for="blue">BLAU</label></input>
+<input type="radio" id="red" name="farbe" checked value="1"><label for="red">ROT</label></input>
+<input type="radio" id="green" name="farbe" value="2"><label for="green">GRÜN</label></input>
+<input type="radio" id="blue" name="farbe" value="3"><label for="blue">BLAU</label></input>
 
 
-<table></table>
+<table>
+    <tbody>
+
+    </tbody>
+</table>
 
 <script src="farbTabelle.js"></script>
 
