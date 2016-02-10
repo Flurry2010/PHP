@@ -1,23 +1,21 @@
 body{
-    background-color: aliceblue;
+    background: url("quatsch.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-color: black;
+
 }
 
-#back{
-    height: 300px;
-    width: 300px;
-    border: solid 1px black;
-    background: url("star.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-}
+
 
 #back1{
     height: 300px;
-    width: 300px;
+    width: 500px;
     border: solid 1px black;
-    background: url("star.svg");
+    background: url("Skull.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: center;
     position: relative;
     right: 0;
+    margin: 300px 600px;
 }
