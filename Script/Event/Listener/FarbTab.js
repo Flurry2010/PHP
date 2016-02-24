@@ -50,3 +50,7 @@ tbody.addEventListener('mouseover', function (e) {
     div.innerHTML = farbe;
 });
 
+tbody.addEventListener('mouseout', function () {
+    div.style.backgroundColor = 'white';
+    div.innerHTML = '';
+});
