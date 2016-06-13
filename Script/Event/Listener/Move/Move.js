@@ -5,7 +5,6 @@
 
 
 var container = document.querySelector('#container');
-
 container.addEventListener('mousedown', function (e) {
 
     if (e.target === container) return;

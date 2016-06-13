@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("http://www.koinoniajdt.de/wp-content/uploads/2015/07/Orange-background.png");
+}
+
+#back{
+    background-color: green;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+nav{
+    position: fixed;
+    padding-left: 30px;
+    left: -130px;
+    top: 20px;
+    width: 120px;
+    height: 800px;
+    background-color: brown;
+}
+
+nav:hover{
+    transform: translate(100px, 0px);
+    transition-duration: 2s;
+}
+
+
+
+header{
+    background-color: orange;
+    width: auto;
+    height: 150px;
+    margin: 0 0 10px 0;
+}
+
+section{
+    background-color: yellow;
+    width: 500px;
+    height: 560px;
+    margin-bottom: 10px;
+}
+
+article{
+    width: 480px;
+    float: left;
+    margin: 10px 10px 15px 10px;
+}
+#one{
+    position: relative;
+    background-color: grey;
+    transition: width, background-color, 2s;
+}
+
+#one:hover{
+    width: 600px;
+    background-color: blue;
+}
+
+p{
+    font-family: sans-serif;
+    color: black;
+    text-shadow: grey;
+    text-align: justify;
+}
+
+aside{
+    background-color: grey;
+    width: 300px;
+    height: 540px;
+    padding: 10px 10px;
+    margin: 0 0 10px 0;
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+
+footer{
+    clear: both;
+    background-color: red;
+    width: auto;
+    height: 50px;
+    color: darkgrey;
+}
+
+.foot{
+    float: left;
+    margin: 15px 20px;
+}
+
+#link{
+    margin-left: 500px;
+}
+
+.navi{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    text-shadow: black;
+}

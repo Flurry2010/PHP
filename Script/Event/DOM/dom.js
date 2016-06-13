@@ -7,6 +7,7 @@
 
 var mitte = document.getElementById('zentrum');
 
+
 mitte.nextElementSibling.innerHTML = 'X';
 mitte.previousElementSibling.innerHTML = 'X';
 mitte.parentNode.previousElementSibling.lastChild.innerHTML = 'O';
